@@ -44,7 +44,7 @@ const MainLayout = () => {
         </header>
 
         {/* Main content */}
-        <main className="flex-1 overflow-y-auto p-4">
+        <main className="flex-1 overflow-y-auto p-4 border-2 border-red-600 ">
           <Outlet />
         </main>
       </div>
