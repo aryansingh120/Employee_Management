@@ -29,9 +29,9 @@ const Dashboard = () => {
   ];
 
   const recentActivities = [
-    { id: 1, action: 'John Doe submitted leave request', time: '2 hours ago' },
-    { id: 2, action: 'Sarah joined Engineering department', time: '5 hours ago' },
-    { id: 3, action: 'New employee Mike Johnson added', time: '1 day ago' },
+    { id: 1, action: 'Aryan submitted leave request', time: '2 hours ago' },
+    { id: 2, action: 'mohit joined Engineering department', time: '5 hours ago' },
+    { id: 3, action: 'New employee Paras added', time: '1 day ago' },
     { id: 4, action: 'Performance review scheduled for Dev Team', time: '2 days ago' },
     { id: 5, action: 'Payroll processed for March', time: '3 days ago' },
   ];

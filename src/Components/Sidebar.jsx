@@ -14,13 +14,13 @@ const Sidebar = ({ closeSidebar }) => {
   const location = useLocation();
 
   const navigation = [
-    { name: 'Dashboard', icon: FiHome, href: '/dashboard' },
-    { name: 'Employees', icon: FiUsers, href: '/employees' },
-    { name: 'Departments', icon: FiLayers, href: '/departments' },
-    { name: 'Attendance', icon: FiClock, href: '/attendance' },
-    { name: 'Leave Management', icon: FiCalendar, href: '/leave' },
-    { name: 'Reports', icon: FiBarChart2, href: '/reports' },
-    { name: 'Settings', icon: FiSettings, href: '/settings' },
+    { name: 'Dashboard', icon: FiHome, href: '/mainLayout/dashboard' },
+    { name: 'Employees', icon: FiUsers, href: '/mainLayout/employees' },
+    { name: 'Departments', icon: FiLayers, href: '/mainLayout/departments' },
+    { name: 'Attendance', icon: FiClock, href: '/mainLayout/attendance' },
+    { name: 'Leave Management', icon: FiCalendar, href: '/mainLayout/leave' },
+    { name: 'Reports', icon: FiBarChart2, href: '/mainLayout/reports' },
+    { name: 'Settings', icon: FiSettings, href: '/mainLayout/settings' },
   ];
 
   const isActive = (path) => {
